@@ -1,0 +1,22 @@
+name: Dog Breed Data Set
+description: Dataset including information on dog breeds.
+contributors:
+- name: ChatGPT created this dataset for me on 2/21/2024 with prompting by April Crockett
+data:
+- name: Pepper Data Set
+  description: Data set containing information about different types of peppers.
+  path: "../dataset/pepperData.csv"
+  format: csv
+  size: 3KB
+  fields:
+  - name: Pepper Name
+    description: Name of the pepper
+  - name: Pepper Color
+    description: Color of the pepper (orange, brown, red, green, various)
+  - name: Pepper Size
+    description: small, medium, large
+  - name: Scoville Heat Units (SHU)
+    description: head index level measured in SHU
+license:
+- name: GNU General Public License v3.0
+  link: LICENSE
